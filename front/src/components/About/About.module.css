@@ -1,0 +1,59 @@
+/* About.module.css */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(92, 89, 89);
+    border-radius: 10%;
+  }
+  
+  .about img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .about h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .about h3 {
+    
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    font-style: italic;
+  }
+  
+.about a {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .home {
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+    display: inline-flex; /* Cambiar a inline-flex para que el botón ocupe solo el ancho necesario */
+    text-decoration: none;
+    background-color: rgb(94, 91, 91);
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    border: 2px solid white; /* Agregar borde blanco */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
+}
+
+.home:hover {
+    background-color: rgb(76, 73, 73); /* Cambiar el color de fondo al pasar el cursor por encima */
+}
